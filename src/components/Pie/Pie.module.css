@@ -1,0 +1,30 @@
+.pie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--negro);
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logoContainer{
+    height: 40px;
+    display: flex
+}
+
+.pie img {
+    align-self: center;
+    transform: scale(.5);
+    padding-bottom: .5em;
+}
+
+.pie p{
+    align-self: center;
+    font-weight: 600;
+    color:white;
+    margin-left: 8px;
+    font-size: 0.7rem;
+}
